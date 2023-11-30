@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Scto Grotesk A';
+    src: url(../fonts/SctoGroteskA-Regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Scto Grotesk A';
+    src: url(../fonts/SctoGroteskA-Medium.woff2);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Scto Grotesk A';
+    src: url(../fonts/SctoGroteskA-Bold.woff2);
+    font-weight: 700;
+}
+
+:root{
+    --main-color: rgba(244, 244, 244, 1);
+    --main-color-dark: rgba(37, 36, 34, 1);
+    --accent-color: rgba(249, 205, 205, 1);
+    --accent-color-dark: rgba(94, 94, 94, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
