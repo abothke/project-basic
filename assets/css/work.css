@@ -1,0 +1,82 @@
+@import url(./root.css);
+
+html {
+    font-family: 'Inter';
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+p {
+    color: var(--main-color-dark);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h1 {
+    color: var(--main-color-dark);
+    font-size: 5.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--main-color-dark);
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--main-color-dark);
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: var(--main-color-dark);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+/* start - hero section */
+.hero {
+    display: flex;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 5.6rem;
+    gap: 3rem;
+}
+
+.hero p {
+    align-self: flex-end;
+    text-align: justify;
+}
+
+/* end - hero section */
+
+/* start - grid 3 collons */
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "column1 column2 column3";
+}
+
+.workGrid:nth-of-type(1) {
+    grid-area: column1;
+}
+
+.workGrid:nth-of-type(2) {
+    grid-area: column2;
+}
+
+.workGrid:nth-of-type(3) {
+    grid-area: column3;
+}
+
+.workArticle {
+    display: flex;
+}
+
+/* start - grid 3 collons */
