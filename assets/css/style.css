@@ -1,2 +1,23 @@
 @import url(./root.css);
 
+span::before, h6::before{
+    content: "●";
+}
+.branding img{
+    width: 405px;
+}
+.clients-logo img{
+    height: 40px;
+}
+
+.news img:nth-of-type(1){
+    height: 325px;
+}
+
+.news img:nth-of-type(2){
+    width: 50px;
+}
+
+.footer-header img{
+    width: 40px;
+}
