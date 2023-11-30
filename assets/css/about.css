@@ -29,6 +29,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--main-color-dark);
+}
+
 /* Section One */
 
 .cultural_text {
@@ -54,6 +58,66 @@ h2 {
 
 /* Section Two */
 
-.img04{
-    color: aliceblue;
+.section__two p {
+    font-family: 'Inter';
+    margin-right: 20rem;
+    display: flex;
+    align-items: center;
+    margin-top: 20rem;
+}
+
+.section__two {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.img-container {
+    position: relative;
+    width: 60%; 
+    height: 70vh; 
+}
+
+.img {
+    position: absolute;
+    width: 40%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.img01 {
+    z-index: 3;
+    left: 0;
+    top: 0;
+}
+
+.img02 {
+    z-index: 4;
+    left: 20px; 
+    top: 20px;
+    margin-top: 15rem; 
+    margin-left: 10rem;
+}
+
+.img03 {
+    z-index: 2;
+    left: 40px; 
+    top: 40px; 
+    margin-left: 19rem;
+    margin-top: 2rem;
+}
+
+.img04 {
+    z-index: 1;
+    left: 60px; /* Adjust the left value as needed */
+    top: 60px; /* Adjust the top value as needed */
+    margin-left: 35rem;
+    margin-top: 25rem;
+}
+
+/* section three */
+
+.section__three h2 {
+    margin-left: 5rem;
 }
