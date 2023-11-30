@@ -1,5 +1,7 @@
 @import url(./root.css);
-
+main{
+    font-family: 'Inter';
+}
 span::before, h6::before{
     content: "●";
 }
