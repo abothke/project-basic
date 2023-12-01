@@ -10,3 +10,28 @@ p{
     font-family: 'Inter';
     font-size: 200px;
 }
+
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news img{
+    height: 325px;
+}
+
+.newsart{
+    display: flex;
+}
+
+.newsart p{
+    font-size: 13px;
+}
+
+.newsart div{
+    display: flex;
+    flex-direction: column;
+    
+}
