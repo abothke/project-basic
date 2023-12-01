@@ -72,6 +72,12 @@ body {
 
 /* Section Two */
 
+.logo {
+    height: 80%;
+    width: 50rem;
+    margin-top: 50rem;
+}
+
 .section__two p {
     font-family: 'Inter';
     font-size: 10px;
@@ -221,6 +227,7 @@ hr {
 /* section five */
 .section__five{
     margin-left: 5rem;
+    height: 100vh;
 }
 
 .awards {
@@ -250,21 +257,18 @@ hr {
     border: 2px solid white; 
 }
 
-.big__words {
-    position: relative;
-    display: inline-block;
-}
-
 .hover_picture {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
 }
 
-.big__words:hover .hover_picture {
-    opacity: 1;
-    visibility: visible;
+.hover_picture img {
+    display: none;
+    margin-left: 20rem;
 }
+
+.hover_picture p:hover ~ img {
+    display: block;
+}
+
