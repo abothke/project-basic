@@ -167,6 +167,24 @@ main a {
 
 /* end follow section */
 
+/* start divider */
+
+
+.divider {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid var(--accent-color-dark);
+    padding: 0.5rem 0;
+    margin: 0 3rem;
+}
+
+.divider p {
+    font-size: 0.8rem;
+}
+
+/* end divider */
+
 
 /* start footer */
 
@@ -254,8 +272,6 @@ footer form input[type="email"] {
 footer input[type="email"]::placeholder {
     color: var(--main-color);
 }
-
-
 
 /* footer copyright */
 .copyright {
